@@ -1,0 +1,9 @@
+@import url('./global.css');
+
+@import url("../fonts/fonts.css");
+
+@import url("../components/header/header.css");
+
+h1 {
+    font-family: "FeatureMono-Regular", monospace;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "FeatureMono-Black";
+    src: url("./FeatureMono-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "FeatureMono-Black";
+    src: url("./AnyConv.com__FeatureMono-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "FeatureMono-Regular";
+    src: url("./FeatureMono-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "FeatureMono-Regular";
+    src: url("./AnyConv.com__FeatureMono-Regular.woff2") format("woff2");
+}

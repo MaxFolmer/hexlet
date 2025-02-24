@@ -1,0 +1,8 @@
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-block-end: 1px solid var(--accent-color);
+    font-family: var(--font-family);
+}
