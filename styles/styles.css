@@ -2,8 +2,11 @@
 
 @import url("../fonts/fonts.css");
 
+
+
+/* Header */
 @import url("../components/header/header.css");
 
-h1 {
-    font-family: "FeatureMono-Regular", monospace;
-}
+@import url("../components/header/__title/heder__title.css");
+
+@import url("../components/header/__logo/header__logo.css");

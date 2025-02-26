@@ -11,6 +11,8 @@
     --main-color: #1b1b1b;
     --accent-color: #136ef6;
     --font-family: 'FeatureMono-Regular', monospace;
+    --font-size-main: 20px;
+    --line-height-main: 90%;
 }
 
 html {
@@ -20,8 +22,14 @@ html {
 
 body {
     max-width: 1200px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-main);
+    line-height: var(--line-height-main);
 }
 
+.page {
+    margin: 0 auto;
+}
 
 ul {
     list-style: none;
