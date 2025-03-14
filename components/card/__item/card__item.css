@@ -1,0 +1,12 @@
+.card__item {
+  width: 100%;
+  height: 280px;
+  margin-block-end: 41px;
+}
+
+@media (width <= 600px) {
+  .card__item {
+    height: 240px;
+    margin-block-end: 25px;
+  }
+}

@@ -1,0 +1,15 @@
+.card__title {
+  max-width: 244px;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+@media (width <= 600px) {
+  .card__title {
+    max-width: max-content;
+    font-size: 16px;
+  }
+}

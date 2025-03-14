@@ -1,0 +1,12 @@
+.header__title {
+  font-family: "FeatureMono-Black";
+  text-align: right;
+}
+
+@media (width <= 480px) {
+  .header__title {
+    font-family: var(--font-family-main);
+    text-align: left;
+    font-size: 16px;
+  }
+}

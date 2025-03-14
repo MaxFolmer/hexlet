@@ -1,0 +1,9 @@
+.main__profile {
+  margin-block-end: 60px;
+}
+
+@media (width <= 600px) {
+  .main__profile {
+    margin-block-end: 50px;
+  }
+}

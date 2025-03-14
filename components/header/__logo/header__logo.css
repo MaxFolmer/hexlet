@@ -1,6 +1,8 @@
 .header__logo {
-    background: no-repeat center cover;
-    background-image: url("../../../images/vector/logo.svg");
-    width: 96px;
-    height: 24px;
+  width: 96px;
+  height: 24px;
+  background-image: url("../../../images/vector/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

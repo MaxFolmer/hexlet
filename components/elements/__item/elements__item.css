@@ -1,0 +1,11 @@
+.elements__item {
+  height: 380px;
+  background-color: var(--gray-color);
+  overflow: hidden;
+}
+
+@media (width <= 600px) {
+  .elements__item {
+    height: 310px;
+  }
+}

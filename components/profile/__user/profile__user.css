@@ -1,0 +1,17 @@
+.profile__user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (width <= 900px) {
+  .profile__user {
+    margin-block-end: 50px;
+  }
+}
+
+@media (width <= 600px) {
+  .profile__user {
+    flex-direction: column;
+  }
+}

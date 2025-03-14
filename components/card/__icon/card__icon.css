@@ -1,0 +1,25 @@
+.card__icon,
+.card__icon_active {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  background: transparent
+    url("../../../images/vector/pixelarticons_heart-none.svg") no-repeat center /
+    cover;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.card__icon_active {
+  background: transparent
+    url("../../../images/vector/pixelarticons_heart-active.svg") no-repeat
+    center / cover;
+}
+
+@media (width >= 1024px) {
+  .card__icon:hover,
+  .card__icon_active:hover {
+    opacity: 0.6;
+  }
+}

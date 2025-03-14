@@ -1,0 +1,10 @@
+.profile__avatar {
+  width: 157px;
+  height: 157px;
+  background-image: url("../../../images/raster/charlie-green-3JmfENcL24M-unsplash.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid var(--accent-color);
+}

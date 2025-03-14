@@ -1,0 +1,15 @@
+.profile-info__description {
+  margin-block-end: 25px;
+  max-width: 380px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (width <= 600px) {
+  .profile-info__description {
+    margin-inline: auto;
+    font-size: 16px;
+    max-width: 200px;
+  }
+}

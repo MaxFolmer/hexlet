@@ -1,0 +1,19 @@
+.card__tresh {
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: transparent url("../../../images/vector/trash.svg") no-repeat
+    center / cover;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+@media (width >= 1024px) {
+  .card__tresh:hover {
+    opacity: 0.6;
+  }
+}
